@@ -2,9 +2,10 @@ package OOPSdemo;
 
 
 public class MobilePhone {
-  String number;
+  	String number;
 	String Processor;
 	String color;
+	int monthly_price;
 
   public class MobilePhone(){}
   public class MobilePhone(number, Processor, color){}
@@ -15,8 +16,8 @@ public class MobilePhone {
   }
   public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MobilePhone S23 = new MobilePhone("123-456-7890","Snapdragon 8 Gen 2","Black");
-
+		MobilePhone S23 = new MobilePhone("123-456-7890","Snapdragon 8 Gen 2","Black",50);
+		MobilePhone iPhone14 = new MobilePhone("138-372-4720","A15 Bionic chip,"Green",75);
 	}
 
 }
