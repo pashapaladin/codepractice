@@ -6,7 +6,7 @@ public class AddNumDigits {
 	static int digitSum(int num) {
 List<Integer> digits = new ArrayList<Integer>();
         // System.out.println("Hello, World!");
-        int num=12345;
+        num=12345;
         int result=0;
         while(num>0){
           digits.add(num%10);

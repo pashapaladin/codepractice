@@ -7,7 +7,7 @@ public class DogTest {
 		// TODO Auto-generated method stub
 		Dog d1 = new Dog();
 		// use any available attributes & behaviors of an object by varname.attribute or varname.behavior
-		System.out.println(d1.name);
+//		System.out.println(d1.name);
 		d1.run();
 	}
 

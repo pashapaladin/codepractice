@@ -1,7 +1,7 @@
 package demo1;
 
 public class VotingAge {
-  static bool checkAge(int age) {
+  static boolean checkAge(int age) {
     if (age>17){
       return true;}
     else {
